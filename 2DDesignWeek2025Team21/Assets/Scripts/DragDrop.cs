@@ -8,9 +8,13 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler
 {
     //[SerializeField] private Canvas canvas;
 
+    [SerializeField] private bool isTile = true;
+
     private RectTransform rectTransform;
     private Vector3 originalPosition;
     private CanvasGroup canvasGroup;
+
+    Vector3 mouseWorldPos;
 
     [HideInInspector] public bool shouldReset = true;
 
@@ -19,6 +23,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler
         rectTransform = GetComponent<RectTransform>();
         originalPosition = new Vector3(0.0f, 0.0f, 0.0f);
         canvasGroup = GetComponent<CanvasGroup>();
+
+        mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -34,7 +40,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (shouldReset)
+        if (shouldReset && isTile)
         {
             transform.position = originalPosition;
         }
@@ -45,6 +51,10 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        originalPosition = transform.position;
+        if (isTile)
+        {
+            originalPosition = transform.position;
+        }
+
     }
 }
