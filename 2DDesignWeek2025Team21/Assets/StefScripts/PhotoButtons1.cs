@@ -14,6 +14,14 @@ public class PhotoButtons1 : MonoBehaviour
     public GameObject photo8;
     public Transform location1;
     public Transform location2;
+    Canvas Canvas1;
+    Canvas Canvas2;
+    Canvas Canvas3;
+    Canvas Canvas4;
+    Canvas Canvas5;
+    Canvas Canvas6;
+    Canvas Canvas7;
+    Canvas Canvas8;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +34,14 @@ public class PhotoButtons1 : MonoBehaviour
         photo7.SetActive(false);
         photo8.SetActive(false);
         //location1 = ();
+        Canvas1 = photo1.transform.parent.gameObject.GetComponent<Canvas>();
+        Canvas2 = photo2.transform.parent.gameObject.GetComponent<Canvas>();
+        Canvas3 = photo3.transform.parent.gameObject.GetComponent<Canvas>();
+        Canvas4 = photo4.transform.parent.gameObject.GetComponent<Canvas>();
+        Canvas5 = photo5.transform.parent.gameObject.GetComponent<Canvas>();
+        Canvas6 = photo6.transform.parent.gameObject.GetComponent<Canvas>();
+        Canvas7 = photo7.transform.parent.gameObject.GetComponent<Canvas>();
+        Canvas8 = photo8.transform.parent.gameObject.GetComponent<Canvas>();
     }
 
     // Update is called once per frame
@@ -44,7 +60,11 @@ public class PhotoButtons1 : MonoBehaviour
         {
             photo1.SetActive(true);
         }
+        //GameObject parentGameObject = photo1.transform.parent.gameObject;
         
+        Canvas1.sortingOrder = 1;
+
+
     }
     public void photo2Button()
     {
