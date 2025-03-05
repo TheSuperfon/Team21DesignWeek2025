@@ -73,7 +73,7 @@ public class PhotoButtons1 : MonoBehaviour
         Canvas1.sortingOrder = 1;
 
         //path = Application.streamingAssetsPath + "/FreddyFazzbear1.jpg";
-        path = Application.streamingAssetsPath + "/Devlog5.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle1PDFTest.pdf";
         PrintFiles();
         //var image = Resources.Load(filename) as TextAsset;
         //File.WriteAllBytes(Application.persistentDataPath + "/" + filename + ".png", image.bytes);
