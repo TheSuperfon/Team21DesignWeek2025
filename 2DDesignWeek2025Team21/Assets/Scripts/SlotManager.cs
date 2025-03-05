@@ -7,11 +7,12 @@ public class SlotManager : MonoBehaviour
     int currentTilesSolved = 1;
     [SerializeField] int tilesToSolve = 12;
     bool isPuzzleSolved = false;
+    public GameObject SpookyText;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        SpookyText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -39,5 +40,6 @@ public class SlotManager : MonoBehaviour
     {
         Debug.Log("puzzle complete!");
         isPuzzleSolved = true;
+        SpookyText.SetActive(true);
     }
 }

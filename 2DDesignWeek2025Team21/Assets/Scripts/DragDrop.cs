@@ -70,7 +70,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler
         canvasGroup.alpha = 1;
         shouldReset = true;
 
-        tile.color = new Color32(200, 63, 56,255);
+        //tile.color = new Color32(200, 63, 56,255);
+        tile.color = new Color32(255, 255, 255, 255);
 
         //gameObject.transform.parent = parentToStore;
         //Destroy(newDragCanvas);
