@@ -2522,14 +2522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTile: 0
-  Canvas1: {fileID: 1657155779}
-  Canvas2: {fileID: 1646592936}
-  Canvas3: {fileID: 245962207}
-  Canvas4: {fileID: 1667651544}
-  Canvas5: {fileID: 1660518955}
-  Canvas6: {fileID: 576697321}
-  Canvas7: {fileID: 136621606}
-  Canvas8: {fileID: 913104973}
+  moveSpeed: 0.1
   shouldReset: 1
 --- !u!225 &525362662
 CanvasGroup:
@@ -3490,6 +3483,10 @@ PrefabInstance:
     - target: {fileID: 1993153397990663523, guid: 7ca0371e6863b40468e80885fa8c8fa9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -11.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026496218349183182, guid: 7ca0371e6863b40468e80885fa8c8fa9, type: 3}
+      propertyPath: tilesToSolve
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2314167941072994455, guid: 7ca0371e6863b40468e80885fa8c8fa9, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -8845,14 +8842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTile: 0
-  Canvas1: {fileID: 0}
-  Canvas2: {fileID: 0}
-  Canvas3: {fileID: 0}
-  Canvas4: {fileID: 0}
-  Canvas5: {fileID: 0}
-  Canvas6: {fileID: 0}
-  Canvas7: {fileID: 0}
-  Canvas8: {fileID: 0}
+  moveSpeed: 0.1
   shouldReset: 1
 --- !u!114 &1788006817
 MonoBehaviour:

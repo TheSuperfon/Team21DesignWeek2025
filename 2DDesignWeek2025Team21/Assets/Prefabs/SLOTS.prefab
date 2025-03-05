@@ -88,6 +88,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1 &1459350842833223345
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,6 +178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1 &1749124823379625403
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1 &2249111538558127851
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1 &2478575811701309812
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,6 +448,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1 &2708748099484819564
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,17 +478,18 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8882823548524647449}
   - {fileID: 5814126735194679922}
-  - {fileID: 2314167941072994455}
-  - {fileID: 1787082414577107845}
   - {fileID: 518765252630680507}
-  - {fileID: 1993153397990663523}
-  - {fileID: 4294579154493898912}
   - {fileID: 5253990287797778563}
-  - {fileID: 2654069234706972803}
-  - {fileID: 6877015439637687365}
   - {fileID: 4523866725638489776}
+  - {fileID: 2314167941072994455}
+  - {fileID: 1993153397990663523}
+  - {fileID: 2654069234706972803}
   - {fileID: 5458648473160174278}
+  - {fileID: 1787082414577107845}
+  - {fileID: 4294579154493898912}
+  - {fileID: 6877015439637687365}
   - {fileID: 5456899574032125912}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -575,6 +586,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1 &3883659544406333133
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +676,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1 &4126771780910079183
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1 &4760371668089341032
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +856,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
+--- !u!1 &5547884589841260040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8882823548524647449}
+  - component: {fileID: 2026496218349183182}
+  m_Layer: 5
+  m_Name: Slot Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8882823548524647449
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5547884589841260040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8630231348935046247}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2026496218349183182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5547884589841260040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52882a6cac07a2648ac9eb553abefd87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilesToSolve: 12
 --- !u!1 &5864982614079964033
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,6 +995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1 &6637599270077368209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,6 +1085,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfdd3448018de4595307cd29809135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 2026496218349183182}
+  nameOfTileToLookFor: 
 --- !u!1001 &6651303148652191589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1107,6 +1179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slot
       objectReference: {fileID: 0}
+    - target: {fileID: 7688998056342789914, guid: 351c88dfca525fc4f99765ed5eac2b9c, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 2026496218349183182}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
