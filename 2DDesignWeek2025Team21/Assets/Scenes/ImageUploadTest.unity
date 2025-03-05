@@ -1008,6 +1008,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 327351f5a97403c4497c163095168b0b, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile1
@@ -3146,6 +3154,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cea3da6081a825445a54963ec89ef6dd, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile5
@@ -3673,6 +3689,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d30e3b1bd77a52342b08a7fd95ed4f29, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile8
@@ -4338,6 +4362,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5d4535393671542419214fa3ff283979, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile9
@@ -4566,6 +4598,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 45acddcb1d07ce444ab7da3a4887b48a, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile10
@@ -4692,6 +4732,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 496ba83eb4ed5aa45beb94d0519efe72, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile11
@@ -5325,6 +5373,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e13867b40fbc6574ca445370e10a3462, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile3
@@ -6282,6 +6338,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9d62097b6caa9b047905866f01f56a8e, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile2
@@ -6772,6 +6836,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c44ed8fd5203744ea8860e7e6be1486, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile7
@@ -6898,6 +6970,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f32a858d19d0cd241b3fb4ca3c4bfef1, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile12
@@ -8781,6 +8861,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b91a65d35a5c5854f9fc2dc872bc561f, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile4
@@ -8943,6 +9031,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTile: 0
+  outline: {fileID: 0}
+  tile: {fileID: 0}
+  dragCanvas: {fileID: 0}
   moveSpeed: 0.07
   shouldReset: 1
 --- !u!114 &1849942440
@@ -10162,6 +10253,14 @@ PrefabInstance:
       propertyPath: isTile
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414765187109725720, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2e8c3e3bf5182084697f22171e32a43e, type: 3}
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile6
@@ -10717,6 +10816,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTile: 0
+  outline: {fileID: 0}
+  tile: {fileID: 0}
+  dragCanvas: {fileID: 0}
   moveSpeed: 0.07
   shouldReset: 1
 --- !u!114 &2104392343
