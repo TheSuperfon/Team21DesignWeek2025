@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using Unity.VisualScripting;
 using UnityEngine;
+
 
 public class PhotoButtons1 : MonoBehaviour
 {
@@ -22,6 +26,10 @@ public class PhotoButtons1 : MonoBehaviour
     Canvas Canvas6;
     Canvas Canvas7;
     Canvas Canvas8;
+
+
+    string path = null;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -64,7 +72,10 @@ public class PhotoButtons1 : MonoBehaviour
         
         Canvas1.sortingOrder = 1;
 
-
+        path = Application.streamingAssetsPath + "/FreddyFazzbear1.jpg";
+        PrintFiles();
+        //var image = Resources.Load(filename) as TextAsset;
+        //File.WriteAllBytes(Application.persistentDataPath + "/" + filename + ".png", image.bytes);
     }
     public void photo2Button()
     {
@@ -148,6 +159,69 @@ public class PhotoButtons1 : MonoBehaviour
         {
             photo8.SetActive(true);
         }
+
+    }
+
+
+    public void GenerateFile()
+    {
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+        }
+        using (var fileStream = new FileStream(path,FileMode.OpenOrCreate, FileAccess.Write))
+        {
+            //var document = new Document(PageSize.A4)
+            //var writer = PDFWriter
+        } 
+
+
+    }
+
+    void PrintFiles()
+    {
+
+        UnityEngine.Debug.Log(path);
+        if (path == null)
+            return;
+
+        if (File.Exists(path))
+        {
+            UnityEngine.Debug.Log("file found");
+            //var startInfo = new System.Diagnostics.ProcessStartInfo(path);
+            //int i = 0;
+            //foreach (string verb in startInfo.Verbs)
+            //{
+            //    // Display the possible verbs.
+            //    Debug.Log(string.Format("  {0}. {1}", i.ToString(), verb));
+            //    i++;
+            //}
+        }
+        else
+        {
+            UnityEngine.Debug.Log("file not found");
+            return;
+        }
+        /*System.Diagnostics.Process process = new System.Diagnostics.Process();
+        process.StartInfo.CreateNoWindow = true;
+        process.StartInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
+        process.StartInfo.UseShellExecute = true;
+        process.StartInfo.FileName = path;
+        //process.StartInfo.Verb = "print";
+
+        process.Start();
+        //process.WaitForExit();*/
+
+
+        ProcessStartInfo info = new ProcessStartInfo(path);
+        info.Verb = "print";
+        info.CreateNoWindow = true;
+        info.WindowStyle = ProcessWindowStyle.Hidden;
+
+        Process p = new Process();
+        p.StartInfo = info;
+        p.Start();
+        p.WaitForExit();
 
     }
 
