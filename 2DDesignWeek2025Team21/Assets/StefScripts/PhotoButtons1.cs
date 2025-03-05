@@ -72,7 +72,8 @@ public class PhotoButtons1 : MonoBehaviour
         
         Canvas1.sortingOrder = 1;
 
-        path = Application.streamingAssetsPath + "/FreddyFazzbear1.jpg";
+        //path = Application.streamingAssetsPath + "/FreddyFazzbear1.jpg";
+        path = Application.streamingAssetsPath + "/Puzzle1PDFTest.pdf";
         PrintFiles();
         //var image = Resources.Load(filename) as TextAsset;
         //File.WriteAllBytes(Application.persistentDataPath + "/" + filename + ".png", image.bytes);
@@ -163,6 +164,15 @@ public class PhotoButtons1 : MonoBehaviour
     }
 
 
+
+    public void photo1Print()
+    {
+        path = Application.streamingAssetsPath + "/FreddyFazzbear1.jpg";
+        PrintFiles();
+        
+    }
+
+
     public void GenerateFile()
     {
         if (File.Exists(path))
@@ -202,7 +212,7 @@ public class PhotoButtons1 : MonoBehaviour
             UnityEngine.Debug.Log("file not found");
             return;
         }
-        /*System.Diagnostics.Process process = new System.Diagnostics.Process();
+        System.Diagnostics.Process process = new System.Diagnostics.Process();
         process.StartInfo.CreateNoWindow = true;
         process.StartInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
         process.StartInfo.UseShellExecute = true;
@@ -210,18 +220,20 @@ public class PhotoButtons1 : MonoBehaviour
         //process.StartInfo.Verb = "print";
 
         process.Start();
-        //process.WaitForExit();*/
+        //process.WaitForExit();
 
+        //up is for opening a pdf and bottom is for printing a jpg
 
-        ProcessStartInfo info = new ProcessStartInfo(path);
+        /*ProcessStartInfo info = new ProcessStartInfo(path);
         info.Verb = "print";
         info.CreateNoWindow = true;
         info.WindowStyle = ProcessWindowStyle.Hidden;
 
         Process p = new Process();
         p.StartInfo = info;
+        //p.StartInfo.ErrorDialog = true;
         p.Start();
-        p.WaitForExit();
+        p.WaitForExit();*/
 
     }
 
