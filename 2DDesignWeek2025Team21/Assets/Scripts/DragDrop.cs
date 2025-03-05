@@ -14,6 +14,9 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler
     private Vector3 originalPosition;
     private CanvasGroup canvasGroup;
 
+    private Vector3 mousePosition;
+    public float moveSpeed = 0.07f;
+
     Vector3 mouseWorldPos;
 
 
@@ -36,7 +39,10 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta;
+        mousePosition = Input.mousePosition;
+        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+        transform.position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
+        //rectTransform.anchoredPosition += eventData.delta;
     }
 
     public void OnEndDrag(PointerEventData eventData)
