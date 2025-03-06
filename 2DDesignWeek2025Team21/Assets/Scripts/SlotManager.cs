@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class SlotManager : MonoBehaviour
 {
-    public int currentTilesSolved = 1;
+    public int currentTilesSolved = 0;
     [SerializeField] int tilesToSolve = 12;
     bool isPuzzleSolved = false;
     public GameObject SpookyText;
+    public Slot NeedRemove1;
+    public Slot NeedRemove2;
+    public Slot NeedRemove3;
+    public Slot NeedRemove4;
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +25,20 @@ public class SlotManager : MonoBehaviour
     {
         if(currentTilesSolved == tilesToSolve && !isPuzzleSolved)
         {
-            CompletePuzzle();
+            if ((NeedRemove1  != null) && (NeedRemove2 != null) && (NeedRemove3 != null)  && (NeedRemove4  != null))
+            {
+                if ((NeedRemove1.isOccupied == false) && (NeedRemove2.isOccupied == false) && (NeedRemove3.isOccupied == false) && (NeedRemove4.isOccupied == false))
+                {
+                    CompletePuzzle();
+                }
+
+
+            }
+            else
+            {
+                CompletePuzzle();
+            }
+            
         }
     }
 
