@@ -12,6 +12,8 @@ public class SlotManager : MonoBehaviour
     public Slot NeedRemove2;
     public Slot NeedRemove3;
     public Slot NeedRemove4;
+    public PhotoButtons1 PhotoScript;
+    public string PathNavigate;
 
 
     // Start is called before the first frame update
@@ -30,6 +32,8 @@ public class SlotManager : MonoBehaviour
                 if ((NeedRemove1.isOccupied == false) && (NeedRemove2.isOccupied == false) && (NeedRemove3.isOccupied == false) && (NeedRemove4.isOccupied == false))
                 {
                     CompletePuzzle();
+                    PhotoScript.path = Application.streamingAssetsPath + PathNavigate;
+                    PhotoScript.PrintFiles();
                 }
 
 
@@ -37,6 +41,8 @@ public class SlotManager : MonoBehaviour
             else
             {
                 CompletePuzzle();
+                PhotoScript.path = Application.streamingAssetsPath + PathNavigate;
+                PhotoScript.PrintFiles();
             }
             
         }

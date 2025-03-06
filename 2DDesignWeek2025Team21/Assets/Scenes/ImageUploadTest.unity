@@ -787,6 +787,7 @@ MonoBehaviour:
   location1: {fileID: 0}
   location2: {fileID: 0}
   Pathstring: 
+  path: 
 --- !u!1 &85248535
 GameObject:
   m_ObjectHideFlags: 0
@@ -3966,6 +3967,14 @@ PrefabInstance:
       propertyPath: SpookyText
       value: 
       objectReference: {fileID: 494738447}
+    - target: {fileID: 2026496218349183182, guid: 7ca0371e6863b40468e80885fa8c8fa9, type: 3}
+      propertyPath: PhotoScript
+      value: 
+      objectReference: {fileID: 62163626}
+    - target: {fileID: 2026496218349183182, guid: 7ca0371e6863b40468e80885fa8c8fa9, type: 3}
+      propertyPath: PathNavigate
+      value: /Puzzle1PDFTest.pdf
+      objectReference: {fileID: 0}
     - target: {fileID: 2314167941072994455, guid: 7ca0371e6863b40468e80885fa8c8fa9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -263
@@ -11070,6 +11079,14 @@ PrefabInstance:
       propertyPath: NeedRemove4
       value: 
       objectReference: {fileID: 1910571823}
+    - target: {fileID: 2026496218349183182, guid: 7ca0371e6863b40468e80885fa8c8fa9, type: 3}
+      propertyPath: PhotoScript
+      value: 
+      objectReference: {fileID: 62163626}
+    - target: {fileID: 2026496218349183182, guid: 7ca0371e6863b40468e80885fa8c8fa9, type: 3}
+      propertyPath: PathNavigate
+      value: /Puzzle1PDFTest.pdf
+      objectReference: {fileID: 0}
     - target: {fileID: 2026496218349183182, guid: 7ca0371e6863b40468e80885fa8c8fa9, type: 3}
       propertyPath: tilesToSolve
       value: 8

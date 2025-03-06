@@ -34,7 +34,7 @@ public class PhotoButtons1 : MonoBehaviour
 
     public string Pathstring;
 
-    string path = null;
+    public string path = null;
 
     // Start is called before the first frame update
     void Start()
@@ -216,7 +216,7 @@ public class PhotoButtons1 : MonoBehaviour
 
     }
 
-    void PrintFiles()
+    public void PrintFiles()
     {
 
         UnityEngine.Debug.Log(path);
