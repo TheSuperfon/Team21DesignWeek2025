@@ -7,25 +7,40 @@ public class Slot : MonoBehaviour, IDropHandler
 {
     bool shouldReset;
     [SerializeField] SlotManager manager;
-    [SerializeField] string nameOfTileToLookFor;
+    string nameOfTileToLookFor;
     Vector2 storedPosition;
-    bool isOccupied = false;
-    GameObject tile;
+    public bool isOccupied = false;
+    public GameObject tile;
+
+    bool firsttime;
 
     void Start()
     {
         storedPosition = new Vector2(0.0f, 0.0f);
+        nameOfTileToLookFor = tile.name;
+
+        if (isOccupied)
+        {
+            storedPosition = tile.GetComponent<RectTransform>().anchoredPosition;
+        }
+
+        if (nameOfTileToLookFor == tile.name && isOccupied)
+        {
+            manager.AddTile();
+        }
     }
 
     void Update()
     {
         if (isOccupied)
         {
-            if(tile.GetComponent<RectTransform>().anchoredPosition != storedPosition)
+            
+            if (tile.GetComponent<RectTransform>().anchoredPosition != storedPosition)
             {
                 manager.SubtractTile();
                 isOccupied = false;
             }
+            
         }
     }
 

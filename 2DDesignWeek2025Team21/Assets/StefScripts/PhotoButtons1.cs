@@ -58,6 +58,8 @@ public class PhotoButtons1 : MonoBehaviour
         Canvas8 = photo8.transform.parent.gameObject.GetComponent<Canvas>();
         FirstTime1 = true;
         FirstTime2 = true;
+        FirstTime3 = true;
+        FirstTime4 = true;
     }
 
     // Update is called once per frame

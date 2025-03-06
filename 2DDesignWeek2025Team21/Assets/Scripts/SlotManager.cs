@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SlotManager : MonoBehaviour
 {
-    int currentTilesSolved = 1;
+    public int currentTilesSolved = 1;
     [SerializeField] int tilesToSolve = 12;
     bool isPuzzleSolved = false;
     public GameObject SpookyText;
@@ -18,7 +18,7 @@ public class SlotManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentTilesSolved > tilesToSolve && !isPuzzleSolved)
+        if(currentTilesSolved == tilesToSolve && !isPuzzleSolved)
         {
             CompletePuzzle();
         }

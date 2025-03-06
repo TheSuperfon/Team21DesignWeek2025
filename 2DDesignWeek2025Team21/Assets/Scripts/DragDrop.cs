@@ -40,7 +40,11 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler
     public void OnBeginDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = false;
-        tile.color = new Color32(56, 200, 171,255);
+        if (isTile)
+        {
+            tile.color = new Color32(56, 200, 171, 255);
+        }
+
         //canvasGroup.alpha = 0.4f;
 
         //newDragCanvas = Instantiate(dragCanvas, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
@@ -71,7 +75,10 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler
         shouldReset = true;
 
         //tile.color = new Color32(200, 63, 56,255);
-        tile.color = new Color32(255, 255, 255, 255);
+        if (isTile)
+        {
+            tile.color = new Color32(255, 255, 255, 255);
+        }
 
         //gameObject.transform.parent = parentToStore;
         //Destroy(newDragCanvas);
