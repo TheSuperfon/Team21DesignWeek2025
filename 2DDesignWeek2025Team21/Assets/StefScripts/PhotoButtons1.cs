@@ -27,6 +27,12 @@ public class PhotoButtons1 : MonoBehaviour
     Canvas Canvas7;
     Canvas Canvas8;
 
+    bool FirstTime1;
+    bool FirstTime2;
+    bool FirstTime3;
+    bool FirstTime4;
+
+    public string Pathstring;
 
     string path = null;
 
@@ -50,6 +56,8 @@ public class PhotoButtons1 : MonoBehaviour
         Canvas6 = photo6.transform.parent.gameObject.GetComponent<Canvas>();
         Canvas7 = photo7.transform.parent.gameObject.GetComponent<Canvas>();
         Canvas8 = photo8.transform.parent.gameObject.GetComponent<Canvas>();
+        FirstTime1 = true;
+        FirstTime2 = true;
     }
 
     // Update is called once per frame
@@ -74,7 +82,13 @@ public class PhotoButtons1 : MonoBehaviour
 
         //path = Application.streamingAssetsPath + "/FreddyFazzbear1.jpg";
         path = Application.streamingAssetsPath + "/Puzzle1PDFTest.pdf";
-        PrintFiles();
+        //path = Application.streamingAssetsPath + Pathstring;
+        if (FirstTime1 == true)
+        {
+            PrintFiles();
+            FirstTime1 = false;
+        }
+        
         //var image = Resources.Load(filename) as TextAsset;
         //File.WriteAllBytes(Application.persistentDataPath + "/" + filename + ".png", image.bytes);
     }
@@ -88,7 +102,13 @@ public class PhotoButtons1 : MonoBehaviour
         {
             photo2.SetActive(true);
         }
-
+        path = Application.streamingAssetsPath + "/Puzzle2PDF1.pdf";
+        //path = Application.streamingAssetsPath + Pathstring;
+        if (FirstTime2 == true)
+        {
+            PrintFiles();
+            FirstTime2 = false;
+        }
     }
     public void photo3Button()
     {
@@ -167,9 +187,15 @@ public class PhotoButtons1 : MonoBehaviour
 
     public void photo1Print()
     {
-        path = Application.streamingAssetsPath + "/FreddyFazzbear1.jpg";
+        path = Application.streamingAssetsPath + "/Puzzle1PDFTest.pdf";
         PrintFiles();
         
+    }
+    public void photo2Print()
+    {
+        path = Application.streamingAssetsPath + "/Puzzle2PDF1.pdf";
+        PrintFiles();
+
     }
 
 
