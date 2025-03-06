@@ -1032,6 +1032,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile1
       objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
+      objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3328,6 +3340,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile5
       objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
+      objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3874,6 +3898,18 @@ PrefabInstance:
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
       objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
@@ -4560,6 +4596,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile9
       objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
+      objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4808,6 +4856,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile10
       objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
+      objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4953,6 +5013,18 @@ PrefabInstance:
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
       objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
@@ -5606,6 +5678,18 @@ PrefabInstance:
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
       objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
@@ -6584,6 +6668,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile2
       objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
+      objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7094,6 +7190,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile7
       objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
+      objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7239,6 +7347,18 @@ PrefabInstance:
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
       objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
@@ -9143,6 +9263,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile4
       objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
+      objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -9252,7 +9384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1849942437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10547,6 +10679,18 @@ PrefabInstance:
     - target: {fileID: 5979664419497236182, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Name
       value: Tile6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027663812668880285, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.09829569
       objectReference: {fileID: 0}
     - target: {fileID: 6798290128675954539, guid: 317fe8d6dff7149448576cd5376cdc1e, type: 3}
       propertyPath: m_Pivot.x
