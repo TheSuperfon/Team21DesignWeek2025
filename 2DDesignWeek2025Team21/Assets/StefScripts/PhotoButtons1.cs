@@ -260,6 +260,12 @@ public class PhotoButtons1 : MonoBehaviour
 
     }
 
+    public void photoFinalePrint()
+    {
+        path = Application.streamingAssetsPath + "/ReleaseMe.pdf";
+        PrintFiles();
+
+    }
 
     public void GenerateFile()
     {

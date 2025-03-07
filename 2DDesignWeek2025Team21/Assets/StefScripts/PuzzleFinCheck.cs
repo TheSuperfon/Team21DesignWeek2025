@@ -17,6 +17,10 @@ public class PuzzleFinCheck : MonoBehaviour
     public GameObject spookyText4;
     //public GameObject spookyText5;
     public GameObject spookyText6;
+
+
+    public PhotoButtons1 Script;
+    public LevelManager LevelMan;
     // Start is called before the first frame update
     void Start()
     {
@@ -62,7 +66,9 @@ public class PuzzleFinCheck : MonoBehaviour
     {
         if ((tile1.activeInHierarchy == true) && (tile2.activeInHierarchy == true) && (tile3.activeInHierarchy == true) && (tile4.activeInHierarchy == true) && (tile5.activeInHierarchy == true))
         {
-            ghostHand.SetActive (true); 
+            Script.photoFinalePrint();
+            ghostHand.SetActive (true);
+            LevelMan.ChangeScene("FinaleScene");
         }
 
     }
