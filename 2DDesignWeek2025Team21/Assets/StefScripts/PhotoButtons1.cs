@@ -83,7 +83,7 @@ public class PhotoButtons1 : MonoBehaviour
         Canvas1.sortingOrder = 1;
 
         //path = Application.streamingAssetsPath + "/FreddyFazzbear1.jpg";
-        path = Application.streamingAssetsPath + "/Puzzle1PDFTest.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle1.pdf";
         //path = Application.streamingAssetsPath + Pathstring;
         if (FirstTime1 == true)
         {
@@ -104,7 +104,7 @@ public class PhotoButtons1 : MonoBehaviour
         {
             photo2.SetActive(true);
         }
-        path = Application.streamingAssetsPath + "/Puzzle2PDF1.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle2.pdf";
         //path = Application.streamingAssetsPath + Pathstring;
         if (FirstTime2 == true)
         {
@@ -114,6 +114,7 @@ public class PhotoButtons1 : MonoBehaviour
     }
     public void photo3Button()
     {
+        
         if (photo3.activeInHierarchy == true)
         {
             photo3.SetActive(false);
@@ -130,6 +131,13 @@ public class PhotoButtons1 : MonoBehaviour
         {
             photo3p2.SetActive(true);
         }*/
+
+        path = Application.streamingAssetsPath + "/Puzzle3.pdf";
+        if (FirstTime3 == true)
+        {
+            PrintFiles();
+            FirstTime3 = false;
+        }
 
     }
     public void photo4Button()
@@ -197,13 +205,19 @@ public class PhotoButtons1 : MonoBehaviour
 
     public void photo1Print()
     {
-        path = Application.streamingAssetsPath + "/Puzzle1PDFTest.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle1.pdf";
         PrintFiles();
         
     }
     public void photo2Print()
     {
-        path = Application.streamingAssetsPath + "/Puzzle2PDF1.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle2.pdf";
+        PrintFiles();
+
+    }
+    public void photo3Print()
+    {
+        path = Application.streamingAssetsPath + "/Puzzle3.pdf";
         PrintFiles();
 
     }
