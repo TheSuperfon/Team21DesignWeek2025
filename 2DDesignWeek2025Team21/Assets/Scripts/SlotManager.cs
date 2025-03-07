@@ -27,6 +27,7 @@ public class SlotManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(isPuzzleSolved);
         if(currentTilesSolved == tilesToSolve && !isPuzzleSolved)
         {
             if ((NeedRemove1  != null) && (NeedRemove2 != null) && (NeedRemove3 != null)  && (NeedRemove4  != null))
