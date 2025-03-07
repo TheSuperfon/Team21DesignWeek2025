@@ -31,6 +31,7 @@ public class PhotoButtons1 : MonoBehaviour
     bool FirstTime2;
     bool FirstTime3;
     bool FirstTime4;
+    bool FirstTime5;
 
     public string Pathstring;
 
@@ -60,6 +61,7 @@ public class PhotoButtons1 : MonoBehaviour
         FirstTime2 = true;
         FirstTime3 = true;
         FirstTime4 = true;
+        FirstTime5 = true;
     }
 
     // Update is called once per frame
@@ -150,7 +152,7 @@ public class PhotoButtons1 : MonoBehaviour
         {
             photo4.SetActive(true);
         }
-        path = Application.streamingAssetsPath + "/Puzzle3.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle4V2.pdf";
         if (FirstTime4 == true)
         {
             PrintFiles();
@@ -166,6 +168,12 @@ public class PhotoButtons1 : MonoBehaviour
         else
         {
             photo5.SetActive(true);
+        }
+        path = Application.streamingAssetsPath + "/Puzzle5.pdf";
+        if (FirstTime5 == true)
+        {
+            PrintFiles();
+            FirstTime5 = false;
         }
 
     }
