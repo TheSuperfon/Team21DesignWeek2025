@@ -14,12 +14,14 @@ public class SlotManager : MonoBehaviour
     public Slot NeedRemove4;
     public PhotoButtons1 PhotoScript;
     public string PathNavigate;
+    public bool ActivateMetaTile;
 
 
     // Start is called before the first frame update
     void Start()
     {
         SpookyText.SetActive(false);
+        ActivateMetaTile = false;
     }
 
     // Update is called once per frame
@@ -65,5 +67,6 @@ public class SlotManager : MonoBehaviour
         Debug.Log("puzzle complete!");
         isPuzzleSolved = true;
         SpookyText.SetActive(true);
+        ActivateMetaTile = true;
     }
 }

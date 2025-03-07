@@ -14,7 +14,7 @@ public class PhotoButtons1 : MonoBehaviour
     public GameObject photo4;
     public GameObject photo5;
     public GameObject photo6;
-    public GameObject photo7;
+    public GameObject photo3p2;
     public GameObject photo8;
     public Transform location1;
     public Transform location2;
@@ -45,7 +45,7 @@ public class PhotoButtons1 : MonoBehaviour
         photo4.SetActive(false);
         photo5.SetActive(false);
         photo6.SetActive(false);
-        photo7.SetActive(false);
+        photo3p2.SetActive(false);
         photo8.SetActive(false);
         //location1 = ();
         Canvas1 = photo1.transform.parent.gameObject.GetComponent<Canvas>();
@@ -54,7 +54,7 @@ public class PhotoButtons1 : MonoBehaviour
         Canvas4 = photo4.transform.parent.gameObject.GetComponent<Canvas>();
         Canvas5 = photo5.transform.parent.gameObject.GetComponent<Canvas>();
         Canvas6 = photo6.transform.parent.gameObject.GetComponent<Canvas>();
-        Canvas7 = photo7.transform.parent.gameObject.GetComponent<Canvas>();
+        Canvas7 = photo3p2.transform.parent.gameObject.GetComponent<Canvas>();
         Canvas8 = photo8.transform.parent.gameObject.GetComponent<Canvas>();
         FirstTime1 = true;
         FirstTime2 = true;
@@ -83,7 +83,7 @@ public class PhotoButtons1 : MonoBehaviour
         Canvas1.sortingOrder = 1;
 
         //path = Application.streamingAssetsPath + "/FreddyFazzbear1.jpg";
-        path = Application.streamingAssetsPath + "/Puzzle1PDFTest.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle1.pdf";
         //path = Application.streamingAssetsPath + Pathstring;
         if (FirstTime1 == true)
         {
@@ -104,7 +104,7 @@ public class PhotoButtons1 : MonoBehaviour
         {
             photo2.SetActive(true);
         }
-        path = Application.streamingAssetsPath + "/Puzzle2PDF1.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle2.pdf";
         //path = Application.streamingAssetsPath + Pathstring;
         if (FirstTime2 == true)
         {
@@ -114,6 +114,7 @@ public class PhotoButtons1 : MonoBehaviour
     }
     public void photo3Button()
     {
+        
         if (photo3.activeInHierarchy == true)
         {
             photo3.SetActive(false);
@@ -121,6 +122,21 @@ public class PhotoButtons1 : MonoBehaviour
         else
         {
             photo3.SetActive(true);
+        }
+        /*if (photo3p2.activeInHierarchy == true)
+        {
+            photo3p2.SetActive(false);
+        }
+        else
+        {
+            photo3p2.SetActive(true);
+        }*/
+
+        path = Application.streamingAssetsPath + "/Puzzle3.pdf";
+        if (FirstTime3 == true)
+        {
+            PrintFiles();
+            FirstTime3 = false;
         }
 
     }
@@ -134,7 +150,12 @@ public class PhotoButtons1 : MonoBehaviour
         {
             photo4.SetActive(true);
         }
-
+        path = Application.streamingAssetsPath + "/Puzzle3.pdf";
+        if (FirstTime4 == true)
+        {
+            PrintFiles();
+            FirstTime4 = false;
+        }
     }
     public void photo5Button()
     {
@@ -160,7 +181,7 @@ public class PhotoButtons1 : MonoBehaviour
         }
 
     }
-    public void photo7Button()
+    /*public void photo7Button()
     {
         if (photo7.activeInHierarchy == true)
         {
@@ -171,7 +192,7 @@ public class PhotoButtons1 : MonoBehaviour
             photo7.SetActive(true);
         }
 
-    }
+    }*/
     public void photo8Button()
     {
         if (photo8.activeInHierarchy == true)
@@ -189,13 +210,19 @@ public class PhotoButtons1 : MonoBehaviour
 
     public void photo1Print()
     {
-        path = Application.streamingAssetsPath + "/Puzzle1PDFTest.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle1.pdf";
         PrintFiles();
         
     }
     public void photo2Print()
     {
-        path = Application.streamingAssetsPath + "/Puzzle2PDF1.pdf";
+        path = Application.streamingAssetsPath + "/Puzzle2.pdf";
+        PrintFiles();
+
+    }
+    public void photo3Print()
+    {
+        path = Application.streamingAssetsPath + "/Puzzle3.pdf";
         PrintFiles();
 
     }
