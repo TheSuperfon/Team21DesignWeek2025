@@ -150,7 +150,12 @@ public class PhotoButtons1 : MonoBehaviour
         {
             photo4.SetActive(true);
         }
-
+        path = Application.streamingAssetsPath + "/Puzzle3.pdf";
+        if (FirstTime4 == true)
+        {
+            PrintFiles();
+            FirstTime4 = false;
+        }
     }
     public void photo5Button()
     {
